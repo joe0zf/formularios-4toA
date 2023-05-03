@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+    <article>
+        <h2>Campos de texto</h2>
+        <form action="#">
+            <label for="nombre">Nombres: </label>
+            <input id="nombre" type="text" placeholder="ej. Juanito" required>
+            <br>
+            <label for="email">Correo: </label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="pass">Contraseña</label>
+            <input type="password" id="pass">
+            <br>
+            <label for="desc">Descripción</label>
+            <textarea id="desc"></textarea>
+            <br>
+            <input type="submit" value="Guardar">
+        </form>
+    </article>
+    <article>
+        <h2>Campos de números</h2>
+        <form action="#">
+            <input type="number" min="0" max="10" step="3">
+            <br>
+            <input type="range">
+        </form>
+    </article>
+    <article>
+        <h2>Campo de fecha</h2>
+        <form action="#">
+            <input type="date">
+            <br>
+            <input type="time">
+            <br>
+            <input type="week">
+            <br>
+            <input type="month">
+            <br>
+        </form>
+    </article>
+    <article>
+        <h2>Campos de selección</h2>
+        <form action="#">
+            <input type="checkbox">
+            <input type="radio">
+            <button>Pepito 4toA</button>
+        </form>
+    </article>
+    <article>
+        <h2>Campos de archivo</h2>
+        <form action="#">
+            <input type="file">
+        </form>
+    </article>
+    <article>
+        <h2>Campos de color</h2>
+        <form action="#">
+            <input type="color">
+        </form>
+    </article>
+    <div>
+        agrupar un conjunto de etiquetas
+    </div>
+    <span>agrupa caracteres</span>
+    
+</body>
+</html>
